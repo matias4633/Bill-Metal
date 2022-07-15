@@ -1,0 +1,18 @@
+window.onload = function() {
+  console.log('+[window.onload]');
+  // Do nothing now
+  const url = 'https://api-dolar-argentina.herokuapp.com/api/dolaroficial';
+	  var data;
+	  var response;
+	  fetch(url)
+	  .then(response = response.json())
+	  .then(data = function(){
+	  	var element=document.getElementById('elem');
+	  	element.innerHTML = '<p>${data.venta}</p>';
+	  	
+	  	
+	  });
+	 //.catch(err=function(){console.log(err)})
+  
+};
+

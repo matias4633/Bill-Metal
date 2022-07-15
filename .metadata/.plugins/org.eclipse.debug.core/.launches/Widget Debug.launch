@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.tizen.nativecore.launch.TizenLaunchConfigurationType">
+<intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
+<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\widget"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Widget"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Widget"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.tizen.common.CONFIG_ATTR_PROJECT_NAME" value="Widget"/>
+<booleanAttribute key="org.tizen.common.launch.device.emulator" value="true"/>
+<stringAttribute key="org.tizen.common.launch.device.id" value="emulator-26101"/>
+<booleanAttribute key="org.tizen.nativecommon.ATTR_LAUNCH_UPDATE_MODE" value="false"/>
+<booleanAttribute key="org.tizen.nativecommon.ATTR_LAUNCH_VERBOSE_CONSOLE" value="true"/>
+<stringAttribute key="org.tizen.nativecommon.launch.app.id" value="org.example.widget"/>
+</launchConfiguration>

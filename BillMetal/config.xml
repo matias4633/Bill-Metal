@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/BillMetal" version="1.0.0">
+    <tizen:app-widget id="GJNHA5rtNO.BillMetal.BillMetal" primary="true">
+        <tizen:widget-label>Bill Metal</tizen:widget-label>
+        <tizen:widget-content src="widget/BillMetal/index.html">
+            <tizen:widget-size preview="widget/BillMetal/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="GJNHA5rtNO.BillMetal" package="GJNHA5rtNO" required_version="5.5"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>BillMetal</name>
+    <tizen:profile name="wearable"/>
+</widget>
