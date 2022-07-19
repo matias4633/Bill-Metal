@@ -2,35 +2,55 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></SignatureMethod>
+<Reference URI="app.jpeg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5zzog2x8GAngxyZiEzk/hB8uqxZmv+Y96RfBevtc74DilyMyTp6XOhI8NOqSH1IfIertLRFDqZuM
+HUnlKT66fw==</DigestValue>
+</Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>Sia3mk848eoae/270pNjyRCXFlMfy2VjcG0PC+Mb+PyJJ2u+3EmEQ2BgXbWR1jn1XWQnnHahF17/
-9BPCq9Gk1g==</DigestValue>
+<DigestValue>OtQnAJrBhamRBAebU5pQYixV422lPDERH8XjlOIjvqywc7Cu6yACl1yps4jK39LkdlrVe1Xt8x6f
+dvDVd4ja+Q==</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>FSuFrGPyoG6S3ap+RynfIrkUKyN0PTFCG3ZwM9tuLJ3Z2lP7Nt6EQcESlqnqf5AZltGe6muWgUbV
-pGGYY59+sg==</DigestValue>
+<DigestValue>RTH7ZOY6VwA5l0x39SAXKJ93jZQwJRKXPMcx++hDLSk7yVKOfiCzQ5PJsPQoAFhneMJGodUFlTG/
+1CtpowYQ0A==</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
 <DigestValue>VVIMUHfDiDx/Ab0MVmyXRsfn4pmINRKOgPA+1b+iJ9Gjzru5zH08KAr5w2+NZdPKpT24+C8plzVI
 9kQcdZLYYw==</DigestValue>
 </Reference>
+<Reference URI="icono.jpeg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9f5VdtErUpgUH8sKkiype68a9PMA+kXOahunSEdgLR8FU2pfB5QuFW6q56j63xmQlIph+k8lqX/U
+NRy4hPD1iw==</DigestValue>
+</Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
 <DigestValue>bssEi/rF6+l/v9WO/uEEIW0kldTehol97NLZRkaqRgege0zy58/GGFG+ekLZbWb3IJrYbWd3XsoZ
 qjF1R0z1fA==</DigestValue>
 </Reference>
+<Reference URI="vistaprevia.jpeg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>x5uJHFR7ZdwuKvHjdYffU0yXna6ygVzwpVjXNQKZxjc5fXFAi12JFVr1X6Fazzs4fe3LqiYkWl1l
+GlwZpemWtA==</DigestValue>
+</Reference>
 <Reference URI="widget%2FBillMetal%2Fcss%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>ZtRWKrBxYvUMH46ECfiSB9d3WPDJRa7aXLRNP9dv/NOah3FgkbXnD2CUytCmUF88M6Hl8oauMMhW
-XVNGfin4fQ==</DigestValue>
+<DigestValue>DgH6ty5thKbxSj52ne5gxVv8vwK0B1m2VITHpk9hSTh5RFn8hM3ZIA0eNudiZSCzzLreMZpZC4zP
++nhm8VdpGw==</DigestValue>
+</Reference>
+<Reference URI="widget%2FBillMetal%2Fimages%2Factualizar.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Wg0ePkKBw3mzzww6jjudBqBfhLoydh5yoPeDOfb24Lp7zluEESP6mckfLaqWEwm00EaUmF7x05PJ
+RX+Cf2jyaQ==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Findex.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>F+T5zPtjsuE0z9utuQCLGqL5x1zR28+XsrO0GrGpAc+oYT7WGuo0hhcWFFU5LPIpFxkwRuYzM2Yq
-7zovxPK42A==</DigestValue>
+<DigestValue>R1e+HX2lfJ8nO4ZZNe/misO9fL0Y/+4lAerhTyAl395HtwbJbg6tGp9wCrBPhYtioYOUkGdPBnzk
+d80LAR7r7g==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fjs%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -52,11 +72,11 @@ GyvKX9Snig==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-IA0kYiAAemu0RLjjguHd4DEIvKnfKrK2mNg7Tql3RWzfmnIgybB8K/XDCHNTls5c+PLtGY+jmm39
-wO0w1t3fun18cC64e99299EVMO/ex11MRudter3wLyYe1kAxW4L/O8JgYIh97e7ZTCzJdRSr3f15
-Wy9wysDVaJR5pAJxFkh90NFD3zhwMhu8yOdGoN7Sft8nvJ9X0Q7rcGUI4mdg7dunhk80k23DJlED
-RU5lL3LBaoDQylGmVgyfbdNU4YF16fUWCgS6nA5IUdQFukOtqNeVcTBJd11QvzAiVk+/hfOF7if0
-RzhmvBAq3nE7RE9pHHlLqc2qtpjmQTEUppdwnQ==
+PwjKeQ5886TPmTCFThrLPIcjHFxZJ+C/YxOzE2rhF3pr+KB0H/uPu+qN963wsYfC80eOe8Z9tunH
+two1dsDdIHIlNKVGnI9ZzXQ1ZZ0MpmxSPWFGnkqUbrSt8saqCrJS2WCZsIK4jsDy5at6ZymbYTb6
+3nXs57OTq88PlwdEYceOz/5NmJOkyshYKff+esSGHmsOZX6XxSOQwtFxHuA1pbB7TQdHJ/Nvj5bH
+ZkPtFNEc6yZ3C2mvg3XjhFlYQGGUziJo5ijjZaWFHZ0zT0pVsuG2I1xhtTzeG4SxLGtN1f9bj5MB
+RWpdadB2N6CF6c/5ovPRdcK+FfUzOUS/Slb4+w==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

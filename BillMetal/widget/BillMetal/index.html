@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/main.js"></script>
-	<script type="text/javascript">
+    <script type="text/javascript">
         function actualizar(){
         location.reload(true);
         }
@@ -18,18 +18,25 @@
 <body>
     <div id="page">
         <div id="container">
-            <p id="texto-oficial">Dolar Oficial:
-                <div id="oficial"></div>
-                <hr>
-                <div id="texto-blue">Dolar Blue:
-                    <div id="blue"></div>
-                </div>
-                <div id="hora"></div>
-              
-                </div>
-            </p>
 
+            <div id="texto-oficial">Dolar Oficial:
+                <div id="oficial"></div>
+            </div>
+            <hr>
+            <div id="texto-blue">Dolar Blue:
+                <div id="blue"></div>
+            </div>
+            
+            <div id="actualizar">
+				<div id="hora"></div>
+                <a href="javascript:location.reload()"><img id="imgActualizar" src="images/actualizar.png"></a>
+            </div>
+			
         </div>
+
+
+
+    </div>
     </div>
 </body>
 
