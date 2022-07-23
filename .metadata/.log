@@ -11407,3 +11407,70 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.tizen.common.ui.Startup 1 0 2022-07-23 17:03:51.731
 !MESSAGE SDK Information: Path [C:\tizen-studio], Data Path [C:\tizen-studio-data], Platform Path [C:\tizen-studio\platforms\tizen-6.5\wearable]
+
+!ENTRY org.tizen.web.zimlaunch.fastdeploy.WebFastDeployListener 4 0 2022-07-23 17:29:30.085
+!MESSAGE [2022.07.23 17:29:30][ERROR] WebFastDeployListener.java(64) - Cannot nature enabled
+
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Project 'BillMetal' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Project.isNatureEnabled(Project.java:893)
+	at org.tizen.web.zimlaunch.fastdeploy.WebFastDeployListener.isSupportType(WebFastDeployListener.java:60)
+	at org.tizen.common.launch.FastDeployListener.isExecutable(FastDeployListener.java:78)
+	at org.tizen.common.launch.FastDeployListener.resourceChanged(FastDeployListener.java:117)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:360)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:145)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2022-07-23 17:29:30.085
+!MESSAGE Project 'BillMetal' is not open.
+
+!ENTRY org.tizen.web.zimlaunch.fastdeploy.WebFastDeployListener 4 0 2022-07-23 17:30:00.180
+!MESSAGE [2022.07.23 17:30:00][ERROR] WebFastDeployListener.java(64) - Cannot nature enabled
+
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Project 'BillMetal' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Project.isNatureEnabled(Project.java:893)
+	at org.tizen.web.zimlaunch.fastdeploy.WebFastDeployListener.isSupportType(WebFastDeployListener.java:60)
+	at org.tizen.common.launch.FastDeployListener.isExecutable(FastDeployListener.java:78)
+	at org.tizen.common.launch.FastDeployListener.resourceChanged(FastDeployListener.java:117)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:360)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:145)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2022-07-23 17:30:00.180
+!MESSAGE Project 'BillMetal' is not open.
+!SESSION 2022-07-23 17:30:36.016 -----------------------------------------------
+eclipse.buildId=4.6 
+java.version=1.8.0_242
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2022-07-23 17:30:43.898
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-07-23 17:30:43.898
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.egit.ui', id='org.eclipse.egit.ui.RepositoriesViewRefresh'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-07-23 17:30:43.898
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.egit.ui', id='org.eclipse.egit.ui.org.eclipse.egit.ui.AbortRebase'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-07-23 17:30:43.898
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.egit.ui', id='org.eclipse.egit.ui.history.RenameBranch'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-23 17:30:52.768
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\matia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.tizen.common.ui.Startup 1 0 2022-07-23 17:30:53.478
+!MESSAGE SDK Information: Path [C:\tizen-studio], Data Path [C:\tizen-studio-data], Platform Path [C:\tizen-studio\platforms\tizen-6.5\wearable]
