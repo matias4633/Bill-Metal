@@ -49,8 +49,8 @@ d80LAR7r7g==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fjs%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>1ktwjYNuK2U5WcZh1xYntJghNeRA5fXjCARwKdW8ftX30pVaNSaIfGkV70859GEW3yjRrIF1T6b0
-aSwAD48+bQ==</DigestValue>
+<DigestValue>5lgUN+w7GbNGl6SJIvFkKsvI6l6N+Idbc1kdmjZmj9sz2YeGsT+cJNrANrcj3HTx++cWVkhcrF67
+cAguXBQOUw==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fpreview.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -67,11 +67,11 @@ QY10fG1EWQ==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-guKnYtItblCvlAfc7XXz3Q0UannaADipWo/AF2Kgu2GxpLzdEpokW8Nkf1kl4TvGjE49u6/02kpP
-TZ9O2obMjxvFEkls0RtRwWogMcONchgVrmeCcPKkVkFjCTCSVAMLpiH2PrCeXjHk6Ro0v5oH55RU
-EUkC9RirhxczO7eadKhCsadyQkCj/czzllg1183zlS5egj5HsKybvHZxlKS5kt3CAdBRrmyIoJ/4
-2zl1iH2WzZe6tVFowEVV8s4EF82CHET/EbYEHOv14Tz2Zqc26arB1yar+XMT1NJc93LnSbcgERg6
-ZPgOHtB06kPC/imBjgTvRFM7Q8N2rL+MfLrXWg==
+QTW5stWgfksqnHBL9mZlYsZ3IgFYO9N2zQ3uOEQ/a1RS3WGvBz8HV7eZwHAyrxIxmWhvhVZ9Jkqx
+8UPSiOKry1u0gFoe4RFfDQ4yzCEpwj8aBUdQKxAyjPOusv9z6CoNL8vOhjbkgi3I7XbBhLhFipaA
+1t/P+RaDq+Khvf2IGkxLJ2T8ZxjwA3/botmkny8tqtAkwc5KF7qjkQ2UtLxOL8oA1oEs7QdK2cJr
+aeBrmENUzHFCwF7s0MSgD8r6x/HPUWnmgnQ4OnQjMsjYA8paTCmvwEptUAyWRf++DCAjehs/BZpI
+ECPQF2YuALWrD3SC4sQ0Ffqx9No8SE/kXQKxvQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

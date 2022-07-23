@@ -15,12 +15,18 @@ window.onload = function() {
           document.getElementById('oficial').innerText = respuestaJson.oficial;
           document.getElementById('blue').innerText= respuestaJson.blue;
           var date=new Date();
-          document.getElementById('hora').innerText= "Actualizado "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+          document.getElementById('hora').innerText= "Actualizado "+formatoHora(date.getHours())+":"+formatoHora(date.getMinutes())+":"+formatoHora(date.getSeconds());
       }
   };
   respuesta.send();
   
-  
+  function formatoHora(hora){
+	  if(hora<10){
+		  return "0"+hora;
+	  }else{
+		  return hora;
+	  }
+  }
   
 };
 
