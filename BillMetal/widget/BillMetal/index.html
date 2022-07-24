@@ -7,7 +7,8 @@
     <script src="js/main.js"></script>
     <script type="text/javascript">
         function actualizar(){
-        	location.reload(true);
+        	<!-- location.reload(true); -->
+        	window.onload();
         }
         
         setInterval("actualizar()",60000);
@@ -29,7 +30,7 @@
             
             <div id="actualizar">
 				<div id="hora"></div>
-                <a href="javascript:location.reload()"><img id="imgActualizar" src="images/actualizar.png"></a>
+                <a href="javascript:actualizar()"><img id="imgActualizar" src="images/actualizar.png"></a>
             </div>
 			
         </div>
