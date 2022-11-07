@@ -9,8 +9,8 @@ HUnlKT66fw==</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>RJrk6TT/PEqX4VKkKB5l9c+Kt/fJbgjsEwnW8m76/nXfUVySHrpMhcyh44fKfHXV9x/5gQ0u+xUs
-rkveHln6bg==</DigestValue>
+<DigestValue>6/4oK52ngcNgKYoBmaVfvVLQW2bkGMEl9pymmQLlRSYqJDUD6NgpsOQrjHPxP5tpAdNPbSBwP/U9
+2EojFe6cxw==</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -39,8 +39,8 @@ GlwZpemWtA==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fcss%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>CjrnSbBQTbdH6t0KP4WquWIfVdoIW3nJWFL4+L36MxdBHVDMo+GIrfwAgYg8mNncLRL4y27L5L8z
-6TB4DPU+xg==</DigestValue>
+<DigestValue>vvlMmARyOLx9E7qUswBhHhXsHIcsrHG1LnMuNUsxQAInWu8aHR0zVRgzMQKh0++L2dUgCGdY9kR3
+0cDydZiA8w==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fimages%2Factualizar.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -54,8 +54,8 @@ yn/2KnIOoA==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Findex.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>75XkLEz+W5KMb2yFmJ/DvczNOFLJSxVqQtrPylxayrUkQxPCv4ulW4qhxdPS2UpfFIZFFLcDLY7J
-dovdjQAhUQ==</DigestValue>
+<DigestValue>YzAt1qbGJQoLCZi3q0quzCboIdxyFaerqwWHTzWpEzi/HPiCwkx2hmmZfy09vzrejhq361HkqbJc
+5Xf10DSSJA==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fjs%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -77,11 +77,11 @@ GyvKX9Snig==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-KrOebatLGbBco6WcQCewowzT2mFGd7iQYl68dBvokpH+G2f7qjK5l/ZCmZCkoX7PfoxiKlElEkjS
-MC6SylMHr6+/k8yOlD4gdeFyd9Xddu7qqSJ7sbRNeycEnPm7/9yCSKfGVoy0UbFk6zeJ83RnhANK
-v5SJe7TiW0Me+RrlKJ1G+1Ci8CtLLIN6QMSXNwXLdeLNTMnVHFRZeejjkD4UvQj6mV7oTOUVz/2V
-/h73DH8gPwahFEWBc4R2xLjkiEev7MUuJyb3FJxRtp6M/GQrvP8ajPnOO8kY+/y3H/NJ2y5SsL4s
-tizAi/jehX8B0Eh4VRdPw6xHg41O9MRPpaOGXw==
+kSbDz61KsykveBTdWWizijeRULT7DsOSidAHr1XInGNHk/9vwMKUa6DWMnNr14wVW6DY3+Xsdkrn
+EzQ5T6v2GL8FY3Q9KjOSFtaadOHHQUk+jlh6xnhNGMcDufwWmnF0KuFpT35uXqhsoCJhWKG7IDH8
+fybxcApEpduEWHpKXY6WRhl03cZfWdSFSt1d1prts6SIiYedkxPjImtZ50PLwLxThFbWs8GFk68p
+qmsHFca8evuSicgIH9a0ITUHiv+AmB22Tkvh/1RZsU6X0Cwio/yKIzFHpEsSlQi8hWQgD8tWGRwg
+9m0la9i6KUh3aWQ5Hr5OLtyZ+rZZqB2E68UMVw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
