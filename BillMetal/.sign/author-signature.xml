@@ -9,8 +9,8 @@ HUnlKT66fw==</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>FSuFrGPyoG6S3ap+RynfIrkUKyN0PTFCG3ZwM9tuLJ3Z2lP7Nt6EQcESlqnqf5AZltGe6muWgUbV
-pGGYY59+sg==</DigestValue>
+<DigestValue>RTH7ZOY6VwA5l0x39SAXKJ93jZQwJRKXPMcx++hDLSk7yVKOfiCzQ5PJsPQoAFhneMJGodUFlTG/
+1CtpowYQ0A==</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -34,23 +34,28 @@ GlwZpemWtA==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fcss%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>QiJRsvtu/c00ST2PSRG0jRI2cnAByoV+zO8TvIZtAbBfFtxuYInS0/g3FMUxoZ3YEiAqBGkUS169
-SgwBRFM0dg==</DigestValue>
+<DigestValue>CjrnSbBQTbdH6t0KP4WquWIfVdoIW3nJWFL4+L36MxdBHVDMo+GIrfwAgYg8mNncLRL4y27L5L8z
+6TB4DPU+xg==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fimages%2Factualizar.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
 <DigestValue>Wg0ePkKBw3mzzww6jjudBqBfhLoydh5yoPeDOfb24Lp7zluEESP6mckfLaqWEwm00EaUmF7x05PJ
 RX+Cf2jyaQ==</DigestValue>
 </Reference>
+<Reference URI="widget%2FBillMetal%2Fimages%2Factualizar2.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>sHIXvdKsQXz+tKlfqChVPjTQEP/yPNehLdbEGMybF7S/9WPeSc1QoWh9wis5egEPRmfAKxUurB8c
+yn/2KnIOoA==</DigestValue>
+</Reference>
 <Reference URI="widget%2FBillMetal%2Findex.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>aLrJrO6aTMt77uW/707xPO+6m0sfA8el8s7OUjnPfPaXbOnBHkT/wNpfonOJ7k1wIpRwHg4vLyv8
-VvK5FZ/+Cg==</DigestValue>
+<DigestValue>75XkLEz+W5KMb2yFmJ/DvczNOFLJSxVqQtrPylxayrUkQxPCv4ulW4qhxdPS2UpfFIZFFLcDLY7J
+dovdjQAhUQ==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fjs%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>YLdCV7f6QD0TgNW7kKga4NaXSWfajviJfbHlY6u96p9LcTPaG6xBG7Ylk6157COsaCbQ3m9+G7py
-uNVJQdP4Gg==</DigestValue>
+<DigestValue>7u3ieQMlW3kgMd6xHyCFFvMPNkJwdL5dsLRDzqBPvr41GeED5gD1RDLLJCgw5ArlVQQVqBGrMrFy
+sTjjhxXbBg==</DigestValue>
 </Reference>
 <Reference URI="widget%2FBillMetal%2Fpreview.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -67,11 +72,11 @@ QY10fG1EWQ==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-TFrSP6C1ERMobmGuEu5vU0Z7sDq9362tS5Zf7ktIfOh5JVZxGg4oEW3Pnutbamq1ImvQblJN/a0w
-/cAYGfYqJXwrrPvm9T4mi/LMHaKSu3Lu9nby2POTQDGMm0QzpBzJZr8a0e2hqrmEXQe7cdQnMZUq
-+PrbxqyWZTEUiLO7OfYVbXB32jSW1nx5zSvtxgR9VHd5YwQks/Hrab4uYInHHdTPvilpzxPnaFsX
-lMxCFXQeOOQ0gzRqZ3vz6JMPrql1Jo6n4oGnfwUd/WqeeZpMV25Ve194WyK431xAFiLYz7FQEu/J
-+pwwElHSQ1aeRFOXU3D7thLfdbrf/Qe9rZA42g==
+JooaZR5kJdhABZYXdfChvsHOHGwjeYNdckChkE05X1t5P/JRThuyeP2JDETEE27I/vOhO7f69igz
+tLDWWg8DgeJzkZ3bdsTYXQiP3z2qfhqL9oqIixUKhMwi8IGI5E89iQcejgJkPReF7JFrZELUWbpi
+xICq1k+cP2kmQ5oGJW1/A5O2yR8j6n296CiDxbZiRF9xhT6R/Me2D2DkQc7TDE1ZNf9nJVx6R1Vz
+FpfQmzz/DOwSzjVDlzlV8hB8mVmt66iwxR8ynHeamiyrD0mOVSviGuJlQ7xrlcPk2hEw/tTBUVDi
+H2HZUQKeIMZraQ7Hl7gqGgd0wVNX+rx36sVJNQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

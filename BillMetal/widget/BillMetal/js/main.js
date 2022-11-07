@@ -1,10 +1,12 @@
+var ultimaHora = new Date();
+var hora;
+
 window.onload = function() {
     //console.log('+[window.onload]');
     // Do nothing now
     const url = 'https://criptoya.com/api/dolar';
 
-    var ultimaHora = new Date();
-    var hora;
+    
 
     function contenido() {
 
@@ -17,21 +19,29 @@ window.onload = function() {
 
         respuesta.onreadystatechange = function() {
 
-            if (respuesta.readyState === XMLHttpRequest.DONE && respuesta.status===200) {
+            if (respuesta.readyState === XMLHttpRequest.DONE) {
 
-            	localStorage.setItem(hora, formatoHora(ultimaHora.getHours()) + ":" + formatoHora(ultimaHora.getMinutes()) + ":" + formatoHora(ultimaHora.getSeconds()));
-            	let respuestaJson = JSON.parse(this.responseText);
-                //console.log(respuestaJson);
-                document.getElementById('oficial').innerText = respuestaJson.oficial;
-                document.getElementById('blue').innerText = respuestaJson.blue;
-              
-                document.getElementById('hora').innerText = "Actualizado " + localStorage.getItem(hora);
-            }else{
-            	document.getElementById('hora').innerText = "Ultima actualizacion: " + localStorage.getItem(hora) + "\nConexión no disponible.";
+                   
+                    let respuestaJson = JSON.parse(this.responseText);
+                    //console.log(respuestaJson);
+                    document.getElementById('oficial').innerText = respuestaJson.oficial;
+                    document.getElementById('blue').innerText = respuestaJson.blue;
+                    var hora =new Date();
+                    var cadena=formatoHora(hora.getHours()) + ":" + formatoHora(hora.getMinutes()) + ":" + formatoHora(hora.getSeconds())
+                    document.getElementById('hora').innerText = "Actualizado " + cadena ;
+                    guardarHora(cadena);
             }
         };
-        respuesta.send();
-
+        
+       respuesta.send();
+        
+        /* try {
+        	 respuesta.send();
+        }catch(x){
+        	document.getElementById('hora').innerText = "Ultima actualizacion: " + localStorage.getItem(hora) + "\nConexión no disponible.";
+        }
+       */
+        
     }
 
     function formatoHora(hora) {
@@ -42,12 +52,17 @@ window.onload = function() {
         }
     }
 
-    
+
 
     contenido();
-    
-    
-    
 
 };
 
+function offline(){
+	document.getElementById('hora').innerText = "Ultima actualizacion: " + localStorage.getItem(hora) + "\nConexión no disponible.";
+};
+
+function guardarHora(valor){
+	localStorage.setItem(hora,valor);
+	console.log(localStorage.getItem(hora));
+}

@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 #page {
-    background-color: white;
+    background-color: black;
     color: #fff;
     height: 100%;
     position: relative;
@@ -20,45 +20,46 @@ body {
 #texto-oficial {
     font-weight: bold;
     font-size: 40px;
-    color: #8e8e8e;
+    color: white;
     padding-top: 50px;
     vertical-align: text-bottom;
     margin: 0;
     text-align: center;
-    background: white;
+    background: black;
 }
 #oficial {
-    background: white;
+    background: black;
     font-weight: bold;
     font-size: 40px;
     text-align: center;
-    color: #079a7d;
+    color: #23db39;
 }
 #texto-blue {
     font-weight: bold;
     font-size: 40px;
-    color: #8e8e8e;
+    color: white;
     margin: 0;
     text-align: center;
-    background: white;
+    background: black;
 }
 #blue {
-    background: white;
+    background: black;
     font-weight: bold;
     font-size: 40px;
     text-align: center;
-    color: #079a7d;
+    color: #23db39;
 }
 
 #actualizar{
 	text-align:center;
+	background-color: black;
 	
 }
 
 #hora {
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color: white;
     text-align:center;
     font-style: italic;
     padding-top:20px;
