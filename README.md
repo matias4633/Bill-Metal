@@ -6,6 +6,6 @@ Se actualiza automaticamente cada 60 segundos.
 Utiliza la api de https://criptoya.com/api.
 Informa la hora local de actualizacion.
 Imagenes:
-<img src="/BillMetal/app.jpeg" alt="app"/>
-<img src="/BillMetal/icono.jpeg" alt="icono"/>
-<img src="/BillMetal/vistaprevia.jpeg" alt="vistaprevia"/>
+<img src="/BillMetal/app.jpeg" alt="app" width="200" height="400"/>
+<img src="/BillMetal/icono.jpeg" alt="icono" width="200" height="400"/>
+<img src="/BillMetal/vistaprevia.jpeg" alt="vistaprevia" width="200" height="400"/>
