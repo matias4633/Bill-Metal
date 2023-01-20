@@ -5,8 +5,16 @@ window.onload = function() {
     //console.log('+[window.onload]');
     // Do nothing now
     const url = 'https://criptoya.com/api/dolar';
-
+    const icono=document.getElementById('imgActualizar');
+    function quitar(){
+    	icono.classList.remove('rotacion');
+    }
+    function rotar(){ 
+    		icono.classList.add('rotacion');
+    		setTimeout(quitar,3000);
+    }
     
+    icono.addEventListener("click",rotar);
 
     function contenido() {
 
@@ -57,11 +65,11 @@ window.onload = function() {
     contenido();
 
 };
-
+/*
 function offline(){
 	document.getElementById('hora').innerText = "Ultima actualizacion: " + localStorage.getItem(hora) + "\nConexión no disponible.";
 };
-
+*/
 function guardarHora(valor){
 	localStorage.setItem(hora,valor);
 	console.log(localStorage.getItem(hora));
